@@ -1,0 +1,113 @@
+
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.bg1{
+    padding-top: 400px;
+    box-sizing: border-box;
+    min-height: 1400px;
+    background: url(para.jpg)  no-repeat 100%;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'La Belle Aurore', cursive;
+    color: deeppink;
+}
+.galary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 100px;
+}
+.galary-section{
+    box-sizing: border-box;
+}
+.galary-img{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.galary-img:hover{
+    transform: scale(1.3);
+    transition: 0.8s;
+}
+.galary-section>p{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.bg2{
+    min-height: 1109px;
+    background: url(keratinovoe_vypryamlenie_1.jpg) no-repeat 100%;
+    background-size: cover;
+}
+
+.bg3{
+    min-height: 765px;
+    background: url(lips.jpg) no-repeat 100%;
+    background-size: cover;
+}
+
+.galary2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: end;
+
+}
+.vklogored{
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%; 
+}
+.vklogo{
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%; 
+}
+.vklogo:hover{
+    transform: scale(1.3);
+}
+
+/* footer */
+.design-dark-2{
+    background-color:black;
+}
+
+.footer{
+    max-width: 1249px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 0 33px;
+}
+
+.footer__copyright{
+    margin: 0;
+    color: rgba(184, 184, 184, 1);
+}
+
+.social{
+    display: flex;
+    gap: 17px;
+}
+.social__logo-vk{
+    border-radius: 50%;
+}
